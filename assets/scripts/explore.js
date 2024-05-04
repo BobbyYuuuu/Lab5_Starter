@@ -5,7 +5,7 @@ const synth = window.speechSynthesis;
 const voiceSelect = document.querySelector("select");
 const textarea = document.getElementById("text-to-speak");
 const speakButton = document.querySelector("button");
-const face = document.querySelector('img');
+let face = document.querySelector('img');
 let voices = [];
 
 function init() {
