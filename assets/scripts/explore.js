@@ -27,10 +27,10 @@ function init() {
     utterThis.addEventListener('start', openFace);
     utterThis.addEventListener('end', closeFace);
     function openFace(){
-      face.src = "/assets/images/smiling-open.png";
+      face.src = "assets/images/smiling-open.png";
     }
     function closeFace(){
-      face.src = "/assets/images/smiling.png";
+      face.src = "assets/images/smiling.png";
     }
   });
 
